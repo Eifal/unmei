@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
+  distDir: 'build', // Direktori output build
+
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.freeimages.com',
-        pathname: '/365/images/previews/**', // Adjust the pathname as necessary
+        pathname: '/365/images/previews/**', // Sesuaikan pathname sesuai kebutuhan
       },
     ],
   },
 };
-
-export default nextConfig;

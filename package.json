@@ -15,9 +15,9 @@
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
     "framer-motion": "^11.2.10",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
