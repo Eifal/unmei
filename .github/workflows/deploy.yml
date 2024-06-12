@@ -20,7 +20,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Sesuaikan dengan versi Node.js proyek Anda
+          node-version: '22'  # Sesuaikan dengan versi Node.js proyek Anda
 
       - name: Install dependencies
         run: npm install
@@ -32,3 +32,9 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: npx vercel --prod --token $VERCEL_TOKEN
+
+      - name: Assign custom domain
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: npx vercel alias unmei eifal.vercel.app --token $VERCEL_TOKEN
+
