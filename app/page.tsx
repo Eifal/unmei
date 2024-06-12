@@ -7,7 +7,7 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <AuroraBackground className='bg-black'>
-    <div className='body'>
+    <div className='body-box'>
       <div className="centered-box">
         <EvervaultCard className='text-shadow' text='Eifal-運命' imageUrl='/unmei.png'>
         </EvervaultCard>

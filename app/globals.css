@@ -75,7 +75,7 @@ body {
   margin-top: 10px;
 }
 
-.body {
+.body-box {
   width:fit-content;
   height:fit-content;
   transform: translateY(-20%);
