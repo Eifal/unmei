@@ -39,11 +39,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  transform: translateY(45%);
-  -webkit-transform: translateY(45%);
-  -moz-transform: translateY(45%);
-  -ms-transform: translateY(45%);
-  -o-transform: translateY(45%);
 }
 
 .custom-margin {
@@ -74,4 +69,18 @@ body {
 
 .text-shadow {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.spacing {
+  margin-top: 10px;
+}
+
+.body {
+  width:fit-content;
+  height:fit-content;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
 }
