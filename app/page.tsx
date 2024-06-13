@@ -9,7 +9,7 @@ export default function Home() {
     <AuroraBackground className='bg-black'>
     <div className='body-box'>
       <div className="centered-box">
-        <EvervaultCard className='text-shadow' text='Eifal-運命' imageUrl='/unmei.png'>
+        <EvervaultCard className='text-shadow' text='Eifal-運命' imageUrl='/unmei.webp'>
         </EvervaultCard>
       </div>
       <div className='spacing'>
