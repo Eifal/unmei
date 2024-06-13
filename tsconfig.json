@@ -33,7 +33,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "build/types/**/*.ts"
-  ],
+, "components/ui/hearticon.jsx"  ],
   "exclude": [
     "node_modules"
   ]

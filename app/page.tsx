@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Boxes, AuroraBackground, EvervaultCard, SocialButtons } from '@/components';
+import { Boxes, AuroraBackground, EvervaultCard, SocialButtons, } from '@/components';
 import '@/app/globals.css';
 import Head from 'next/head';
 

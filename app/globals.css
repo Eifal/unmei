@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'tailwindcss/tailwind.css';
+@import 'flowbite';
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -78,9 +80,22 @@ body {
 .body-box {
   width:fit-content;
   height:fit-content;
+  justify-content: center;
+  align-items: center;
   transform: translateY(-20%);
   -webkit-transform: translateY(-20%);
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
+}
+
+.button {
+  border-radius: 50%;
+  padding: 0;
+  width: 40px; /* adjust the size as needed */
+  height: 40px; /* adjust the size as needed */
+}
+
+.button svg {
+  margin: 0 auto;
 }
