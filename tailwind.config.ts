@@ -1,6 +1,8 @@
 import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -33,9 +35,11 @@ module.exports = {
       },
     },
   },
-  plugins: [addVariablesForColors,
+  plugins: [
+    addVariablesForColors,
     require ('flowbite/plugin'),
-    nextui()],
+    nextui()
+  ],
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
