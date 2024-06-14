@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-export default {
+const nextConfig = {
   distDir: 'build',
 
   images: {
@@ -12,3 +12,5 @@ export default {
     ],
   },
 };
+
+export default nextConfig;
