@@ -37,7 +37,7 @@ export const AuroraBackground = ({
             filter blur-[10px] invert dark:invert-0
             after:content-[""] after:absolute after:inset-0 after:[background-image:var(--white-gradient),var(--aurora)] 
             after:dark:[background-image:var(--dark-gradient),var(--aurora)]
-            after:[background-size:200%,_100%] 
+            after:[background-size:200%,_100%]
             after:animate-aurora after:[background-attachment:fixed] after:mix-blend-difference
             pointer-events-none
             absolute -inset-[10px] opacity-50 will-change-transform`,
