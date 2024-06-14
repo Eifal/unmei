@@ -9,6 +9,10 @@ const nextConfig = {
         hostname: 'images.freeimages.com',
         pathname: '/365/images/previews/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'example.com',
+      },
     ],
   },
 };

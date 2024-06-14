@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard } from '@/components';
+import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard, HeroParallax } from '@/components';
 import '@/app/globals.css';
 
 export default function Home() {
