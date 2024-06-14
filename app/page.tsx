@@ -1,10 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { Boxes, AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard } from '@/components';
+import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard } from '@/components';
 import '@/app/globals.css';
-import Head from 'next/head';
-import ButtonSos from '@/components/ui/ButtonSos';
-
 
 export default function Home() {
   return (
