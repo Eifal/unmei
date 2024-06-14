@@ -3,10 +3,10 @@ name: Deploy to Vercel
 on:
   push:
     branches:
-      - main  # Sesuaikan dengan branch utama Anda
+      - master
   pull_request:
     branches:
-      - main  # Sesuaikan dengan branch utama Anda
+      - master
 
 jobs:
   deploy:
