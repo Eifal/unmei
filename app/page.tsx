@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard } from '@/components';
 import '@/app/globals.css';
 
