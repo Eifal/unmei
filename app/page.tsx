@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard, HeroParallax } from '@/components';
+import { AuroraBackground, EvervaultCard, SocialButtons, FollowerPointerCard, SomeText } from '@/components';
 import '@/app/globals.css';
 
 export default function Home() {
@@ -8,9 +8,10 @@ export default function Home() {
     <div className='body-box'>
     <FollowerPointerCard profileImageUrl='/unmei1.webp' >
       <div className='centered-box'>
-        <EvervaultCard className='text-shadow' text='Eifal-運命' imageUrl='/unmei1.webp'>
+        <EvervaultCard className='text-shadow' text='Unmei-運命' imageUrl='/unmei1.webp'>
         </EvervaultCard>
       </div>
+      <SomeText />
       <div className='spacing'>
         <SocialButtons />
       </div>

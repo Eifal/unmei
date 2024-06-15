@@ -146,7 +146,7 @@ export const FollowPointer = ({
             className="mr-1 h-6 w-6 rounded-full object-cover border-2 border-white"
           />
         )}
-        {title || `/unmei.`}
+        {title || `/eifal.`}
       </motion.div>
     </motion.div>
   );
